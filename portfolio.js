@@ -23,7 +23,7 @@ cases.milk.body=cases.milk.body.replace('以下内容直接来自你提供的《
 cases.event.body=cases.event.body.replace('小奶盒补水站完整创意方案，按原 PPT 页序和原始 2:1 画面比例展示。','用“小奶盒”的萌系视觉，装下硬核的营销策略。<br>从创意构思，到内容、媒介、活动的全链路拆解。<br>不玩虚的，让创意不仅好看，更能在真实的业务场景里“快速补水”。');
 if(aiHeading)aiHeading.textContent='AI智能工作台';
 const heroTitle=document.querySelector('.hero h1');
-if(heroTitle)heroTitle.textContent='Lynn Guopeilin 2026Portfloio';
+if(heroTitle)heroTitle.innerHTML='LucyGuo<br>2026Portfolio';
 const xingyunTitle=document.querySelector('#xingyun .section-top h2');
 if(xingyunTitle){xingyunTitle.innerHTML='milk baobab 品牌营销方案展示<small>让新品牌有被选择的理由</small>';}
 document.querySelectorAll('a[href="guopeilin-resume-2026.pdf"]').forEach(link=>{link.href='guopeilin-resume-2026.pdf';link.setAttribute('target','_blank');});
